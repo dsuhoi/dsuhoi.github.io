@@ -1,0 +1,228 @@
+@font-face {
+    font-family: 'Droid Sans';
+    src: url('../fonts/DroidSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    width: 1090px;
+    height: 1590px;
+    margin: 0 auto;
+    background: rgb(20,20,20);
+    background: radial-gradient(circle, rgba(20,20,20,1) 48%, rgba(47,45,45,1) 99%);
+    font-family: 'Droid Sans';
+    font-size: 24px;
+    color: white;
+}
+
+h1, h2, h3, p { color: white;}
+
+/* div{ */
+/*     border: 1px solid red; */
+/* } */
+.main {
+    position: absolute;
+    width: 1090px;
+    height: 1590px;
+    margin: 0 auto;
+    background: rgb(47,45,45);
+    background: linear-gradient(0deg, rgba(47,45,45,1) 0%, rgba(20,20,20,1) 18%);
+}
+
+.photo {
+    position: absolute;
+    width: 275px;
+    height: 275px;
+    text-align: center;
+    left: 92px;
+    top: 65px;
+}
+
+.photo > img {
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+    .title {
+    position:absolute;
+    width: 330px;
+    height:  50px;
+    left: 575px;
+    top: 55px;
+
+    margin: 15px  10px  auto;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.8s;
+    }
+
+    .title:hover{
+     color: transparent;
+    }
+    .title:hover:before {
+    color: white;
+    }
+
+    .title:before {
+    position: absolute;
+    content: attr(data-text);
+    color: transparent;
+    transition: 0.8s;
+    }
+
+    .about {
+    position: absolute;
+    width: 540px;
+    height: 170px;
+    left: 480px;
+    top: 160px;
+    transition: 0.5s;
+    }
+
+    .about:hover {
+     -webkit-transform: scale(1.05);
+    }
+
+    .about > h2 {
+    position: absolute;
+    left: 5px;
+    top: -20px;
+    font-size: 36px;
+    }
+    .about > p {
+    position: absolute;
+    left: 5px;
+    top: 40px;
+    font-size: 20px;
+    }
+
+    .contacts {
+    position: absolute;
+    width: 225px;
+    height: 125px;
+    left: 118px;
+    top: 350px;
+    }
+    .contacts > h2 {
+    position: absolute;
+    left: 65px;
+    top: -5px;
+    font-size: 24px;
+    }
+
+    .email {
+    position: absolute;
+    width: 44px;
+    height: 40px;
+    left: 17px;
+    top: 53px;
+    background:transparent url('../images/email.png') center top no-repeat;
+    background-size: 44px 40px;
+    }
+    .email:hover {
+    background-image: url('../images/email_hover.png');
+    }
+
+   .tg {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 92px;
+        top: 53px;
+        display:block;
+        background:transparent url('../images/tg.png') center top no-repeat;
+        background-size: 40px;
+        border-radius: 50%;
+    }
+    .tg:hover {
+        background-image: url('../images/tg_hover.png');
+    }
+
+    .github {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 163px;
+    top: 53px;
+    background:transparent url('../images/github.png') center top no-repeat;
+    background-size: 40px;
+    border-radius: 50%;
+    }
+    .github:hover {
+        background-image: url('../images/github_hover.png');
+    }
+
+    .skills {
+    position: absolute;
+    width: 505px;
+    height: 205px;
+    left: 470px;
+    top: 402px;
+    }
+    .skills > h2 {
+    position: absolute;
+    left: 34px;
+    top: -20px;
+    font-size: 36px;
+    }
+
+    .skills > ul {
+    position: absolute;
+    left: 30px;
+    top: 50px;
+    font-size: 20px;
+    }
+
+    .skills > ul li {
+    transition: 0.8s;
+    }
+
+    .skills > ul li:hover {
+     -webkit-transform: translate(-20px, 0);
+     transform: translate(-20px, 0);
+    }
+
+    .work {
+    position: absolute;
+    width: 1000px;
+    height: 275px;
+    left: 7px;
+    top: 633px;
+    }
+
+    .work > h2 {
+    position: absolute;
+    left: 68px;
+    font-size: 36px;
+    }
+
+    .wplace {
+    position: absolute;
+    width: 590px;
+    height: 150px;
+    left: 70px;
+    top: 80px;
+    }
+
+    .wplace > h3 {
+    position: absolute;
+    top: -5px;
+    left: 23px;
+    font-size: 24px;
+    }
+
+    .wplace > h4 {
+    position: absolute;
+    left: 23px;
+    top: 28px;
+    font-size: 16px;
+    color: #B5A9A9;
+    }
+
+    .wplace > p {
+    position: absolute;
+    left: 23px;
+    top: 59px;
+    font-size: 20px;
+    }
